@@ -20,9 +20,9 @@ This project is about developing a command-line application that dynamically gen
 - [ ] Implement README Generation with User Input
 
   - [ ] Include sections for:
-    - [ ] Project Title
-    - [ ] Description
-    - [ ] Table of Contents
+    - [x] Project Title
+    - [x] Description
+    - [x] Table of Contents
     - [ ] Installation
     - [ ] Usage
     - [ ] License
@@ -32,8 +32,8 @@ This project is about developing a command-line application that dynamically gen
 
 - [ ] Dynamic Content Integration
 
-  - [ ] Display user-entered project title as README title.
-  - [ ] Insert user-provided content into respective README sections.
+  - [x] Display user-entered project title as README title.
+  - [x] Insert user-provided content into respective README sections.
 
 - [ ] License Section and Badge
 
@@ -51,12 +51,12 @@ This project is about developing a command-line application that dynamically gen
 
 - [ ] Prepare Getting Started Guidelines
 
-  - [ ] Create a .gitignore file.
-  - [ ] Ensure the repository includes a package.json file.
+  - [x] Create a .gitignore file.
+  - [x] Ensure the repository includes a package.json file.
 
 - [ ] Fulfill Project Submission Requirements
   - [ ] Deliverables:
-    - [ ] Submit a sample README.
+    - [x] Submit a sample README.
     - [ ] Provide the GitHub repository with application code.
   - [ ] Walkthrough Video:
     - [ ] Create and submit a demonstration video.

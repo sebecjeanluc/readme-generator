@@ -6,13 +6,51 @@ const generateMarkdown = require('./utils/generateMarkdown')
 const questions = [
 	{
 		type: 'input',
+		name: 'projectTitle',
+		message: 'What is your project name?',
+	},
+	{
+		type: 'input',
+		name: 'githubRepo',
+		message: "What is this project's github repository name?",
+	},
+	{
+		type: 'input',
+		name: 'projectTitle',
+		message: 'Tell me about this project within a couple of sentences',
+	},
+	{
+		type: 'checkbox',
+		name: 'buildWith',
+		message: 'What will your project include in the below?',
+		choices: ['HTML', 'CSS', 'JAVASCRIPT', 'jQuery', 'Node.js', 'WEBAPI'],
+	},
+	{
+		type: 'input',
+		name: 'buildWith',
+		message: 'What will your project include in the below?',
+		choices: ['HTML', 'CSS', 'JAVASCRIPT', 'jQuery', 'Node.js', 'WEBAPI'],
+	},
+	{
+		type: 'input',
 		name: 'name',
 		message: 'What is your name?',
 	},
 	{
 		type: 'input',
-		name: 'projectTitle',
-		message: 'What is your project name?',
+		name: 'email',
+		message: 'What is your email?',
+	},
+	{
+		type: 'input',
+		name: 'linkedIn',
+		message: 'What is your linkedIn username?',
+	},
+	{
+		type: 'radio',
+		name: 'license',
+		message: 'Pick one license the below',
+		choices: ['MIT', 'Other'],
 	},
 ]
 
@@ -54,8 +92,8 @@ init()
 
 // ToDo
 // [x] Make the node to export a simple file
-// Write questions in the array with all property
-// Use inquirer for pmopt using the questions array
+// [x] Write questions in the array with all property
+// [x] Use inquirer for pmopt using the questions array
 // Save the answers of User's input
 // Write an error code
 // Write down the markdown format
