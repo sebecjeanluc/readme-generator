@@ -15,7 +15,7 @@ This project is about developing a command-line application that dynamically gen
 
 - [ ] Develop Command-Line Application
 
-  - [ ] Accept user input.
+  - [x] Accept user input.
 
 - [ ] Implement README Generation with User Input
 

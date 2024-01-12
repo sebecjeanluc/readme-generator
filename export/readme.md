@@ -1,13 +1,11 @@
-// function to generate markdown for README
-function generateMarkdown(data) {
-	return `
+
 
   <!-- TABLE OF CONTENTS -->
   <details>
     <summary>Table of Contents</summary>
     <ol>
       <li>
-        <a href="#about-this-project">${data.projectTitle}</a>
+        <a href="#about-this-project">Project</a>
         <ul>
           <li><a href="#built-with">Built With</a></li>
         </ul>
@@ -21,11 +19,7 @@ function generateMarkdown(data) {
     </ol>
   </details>
 
-## ${data.name}
+## Tak
 
-## ${data.projectTitle}
+## Project
 
-`
-}
-
-module.exports = generateMarkdown
