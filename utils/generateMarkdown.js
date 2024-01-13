@@ -5,6 +5,9 @@ function generateMarkdown(data) {
 	if (data.buildWith && data.buildWith.length > 0) {
 		buildWithItem = data.buildWith.map((item) => `- ![${item}]`).join('\n')
 	}
+
+	// this year
+	let thisYear = new Date().getFullYear('yyyy')
 	return `
 
 <!-- TABLE OF CONTENTS -->
@@ -17,6 +20,8 @@ function generateMarkdown(data) {
           <li><a href="#built-with">Built With</a></li>
         </ul>
       </li>
+      <li><a href="#how-to-install">How to install</a></li>
+      <li><a href="#usage">Usage</a></li>
       <li><a href="#important-note">Important Note</a></li>
       <li><a href="#website-preview">Website Preview</a></li>
       <li><a href="#credits">Credits</a></li>
@@ -40,6 +45,8 @@ ${buildWithItem}
 ~~~shell
 $npm install
 ~~~
+
+### Usage
 
 ### Mock-up
 
@@ -66,8 +73,11 @@ $npm install
 ### Test
 
 ### License
+Copyright(c) ${thisYear},
+All rights reserved
 
-Distributed under ${data.license} License
+This source code is licensed under the ${data.license} license.
+More detail can be found in the LICENSE file in the root directory of this source tree.
 
 ## Questions
 

@@ -56,7 +56,15 @@ const questions = [
 		type: 'list',
 		name: 'license',
 		message: 'Pick one license the below',
-		choices: ['MIT', 'Other'],
+		choices: [
+			'MIT',
+			'Apache-2.0',
+			'GPL-3.0',
+			'BSD-2-Clause',
+			'BSD-3-Clause',
+			'BSD-4-Clause',
+			'Other',
+		],
 	},
 ]
 

@@ -13,18 +13,18 @@ This project is about developing a command-line application that dynamically gen
 
 ### Roadmap
 
-- [ ] Develop Command-Line Application
+- [x] Develop Command-Line Application
 
   - [x] Accept user input.
 
-- [ ] Implement README Generation with User Input
+- [x] Implement README Generation with User Input
 
   - [ ] Include sections for:
     - [x] Project Title
     - [x] Description
     - [x] Table of Contents
     - [x] Installation
-    - [ ] Usage
+    - [x] Usage
     - [x] License
     - [x] Contributing
     - [x] Tests
@@ -47,7 +47,7 @@ This project is about developing a command-line application that dynamically gen
 
 - [x] Functional Table of Contents
 
-  - [ ] Ensure links navigate to corresponding sections in README.
+  - [x] Ensure links navigate to corresponding sections in README.
 
 - [x] Prepare Getting Started Guidelines
 
