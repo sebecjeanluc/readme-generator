@@ -8,16 +8,19 @@ const questions = [
 		type: 'input',
 		name: 'projectTitle',
 		message: 'What is your project name?',
+		default: 'Readme Generator',
 	},
 	{
 		type: 'input',
 		name: 'githubRepo',
 		message: "What is this project's github repository name?",
+		default: 'sebecjeanluc',
 	},
 	{
 		type: 'input',
-		name: 'projectTitle',
-		message: 'Tell me about this project within a couple of sentences',
+		name: 'projectDescription',
+		message: 'Tell me about this project?',
+		default: "This is definitely one of my best masterpieces' project",
 	},
 	{
 		type: 'checkbox',
@@ -27,27 +30,30 @@ const questions = [
 	},
 	{
 		type: 'input',
-		name: 'buildWith',
-		message: 'What will your project include in the below?',
-		choices: ['HTML', 'CSS', 'JAVASCRIPT', 'jQuery', 'Node.js', 'WEBAPI'],
+		name: 'developerNote',
+		message: 'Leave an important note for this project',
+		default: 'This README will be used repeatedly by the author.',
 	},
 	{
 		type: 'input',
 		name: 'name',
 		message: 'What is your name?',
+		default: 'Tak Kawamura',
 	},
 	{
 		type: 'input',
 		name: 'email',
 		message: 'What is your email?',
+		default: 'tkawamura11@gmail.com',
 	},
 	{
 		type: 'input',
 		name: 'linkedIn',
 		message: 'What is your linkedIn username?',
+		default: 'tak-k-8b657828',
 	},
 	{
-		type: 'radio',
+		type: 'list',
 		name: 'license',
 		message: 'Pick one license the below',
 		choices: ['MIT', 'Other'],
@@ -76,9 +82,15 @@ function init() {
 		.prompt(generateQuestions())
 
 		.then((answers) => {
-			console.log(answers)
 			const nameAnswer = answers.name
+			const githubAnswer = answers.githubRepo
+			const projectTitleAnswer = answers.projectTitle
+			const buildWithAnswer = answers.buildWith
+			const emailAnswer = answers.email
+			const linkedInAnswer = answers.linkedIn
+			const llicenseAnswer = answers.license
 			const content = generateMarkdown(answers)
+			// console.log(answers)
 			writeToFile('README.md', content)
 		})
 

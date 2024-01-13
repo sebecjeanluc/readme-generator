@@ -23,12 +23,12 @@ This project is about developing a command-line application that dynamically gen
     - [x] Project Title
     - [x] Description
     - [x] Table of Contents
-    - [ ] Installation
+    - [x] Installation
     - [ ] Usage
-    - [ ] License
-    - [ ] Contributing
-    - [ ] Tests
-    - [ ] Questions
+    - [x] License
+    - [x] Contributing
+    - [x] Tests
+    - [x] Questions
 
 - [ ] Dynamic Content Integration
 
@@ -40,16 +40,16 @@ This project is about developing a command-line application that dynamically gen
   - [ ] Add chosen license badge to README.
   - [ ] Include a notice in the License section.
 
-- [ ] GitHub and Email Information
+- [x] GitHub and Email Information
 
-  - [ ] Add GitHub username with a profile link to the Questions section.
-  - [ ] Include email address with contact instructions in the Questions section.
+  - [x] Add GitHub username with a profile link to the Questions section.
+  - [x] Include email address with contact instructions in the Questions section.
 
-- [ ] Functional Table of Contents
+- [x] Functional Table of Contents
 
   - [ ] Ensure links navigate to corresponding sections in README.
 
-- [ ] Prepare Getting Started Guidelines
+- [x] Prepare Getting Started Guidelines
 
   - [x] Create a .gitignore file.
   - [x] Ensure the repository includes a package.json file.
