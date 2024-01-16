@@ -67,8 +67,10 @@ N/A
 ### Preview / Demo video
 
 ![Preview](./assets/images/demo.png)
-[Demo on youtube](https://www.youtube.com/watch?v=PueJbUTm77Y)
 Also the video is available [here](https://drive.google.com/drive/u/0/folders/186fex8fNqKzf1FexZepadjOEu9Sk73qW)
+[Demo on youtube](https://www.youtube.com/watch?v=PueJbUTm77Y)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PueJbUTm77Y?si=AohkH0b9L2K2JQ7w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 #### This is the Github page
 
