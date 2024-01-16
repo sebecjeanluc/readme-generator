@@ -79,19 +79,19 @@ $npm install
 
 ### Usage
 This tool will help you create a professional README file for your project in just a few simple steps.
-- Running the Tool
+1. Running the Tool
 
 To start the README generation process, type the command: node index.js in your terminal.
 
-- Answering Questions
+2. Answering Questions
 
 The tool will prompt you with a series of basic questions about your project. Please answer these to the best of your ability. Your responses will form the core content of your README.
 
-- Finalizing the README
+3. Finalizing the README
 
 After answering all questions, a basic README template will be generated for you. Please review and manually add any additional sections such as 'Credits', 'Tests', and other necessary information specific to your project.
 
-- Completion
+4. Completion
 
 Once you've customized and finalized your README, save the file. Your professional, comprehensive README is now ready to accompany your project!
 

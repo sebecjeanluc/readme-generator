@@ -28,7 +28,8 @@ This is definitely one of my best masterpieces' project
 
 ### Built With
 
-
+- ![JAVASCRIPT]
+- ![NODEJS]
 
 ### How to install
 
@@ -38,19 +39,19 @@ $npm install
 
 ### Usage
 This tool will help you create a professional README file for your project in just a few simple steps.
-- Running the Tool
+1. Running the Tool
 
 To start the README generation process, type the command: node index.js in your terminal.
 
-- Answering Questions
+2. Answering Questions
 
 The tool will prompt you with a series of basic questions about your project. Please answer these to the best of your ability. Your responses will form the core content of your README.
 
-- Finalizing the README
+3. Finalizing the README
 
 After answering all questions, a basic README template will be generated for you. Please review and manually add any additional sections such as 'Credits', 'Tests', and other necessary information specific to your project.
 
-- Completion
+4. Completion
 
 Once you've customized and finalized your README, save the file. Your professional, comprehensive README is now ready to accompany your project!
 
@@ -80,9 +81,9 @@ Once you've customized and finalized your README, save the file. Your profession
 Copyright(c) 2024,
 All rights reserved
 
-[![License: Apache-2.0](https://img.shields.io/badge/License-Apache_2.0-yellowgreen.svg)](https://opensource.org/licenses/Apache-2.0)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-This source code is licensed under the Apache-2.0 license.
+This source code is licensed under the MIT license.
 More detail can be found in the LICENSE file in the root directory of this source tree if the link of the badge is not available.
 
 ## Questions
