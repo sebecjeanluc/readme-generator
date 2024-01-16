@@ -22,6 +22,8 @@
 
 ## Readme Generator
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 ### About this Readme Generator project
 
 This is definitely one of my best masterpieces' project
@@ -38,22 +40,7 @@ $npm install
 ~~~
 
 ### Usage
-This tool will help you create a professional README file for your project in just a few simple steps.
-1. Running the Tool
-
-To start the README generation process, type the command: node index.js in your terminal.
-
-2. Answering Questions
-
-The tool will prompt you with a series of basic questions about your project. Please answer these to the best of your ability. Your responses will form the core content of your README.
-
-3. Finalizing the README
-
-After answering all questions, a basic README template will be generated for you. Please review and manually add any additional sections such as 'Credits', 'Tests', and other necessary information specific to your project.
-
-4. Completion
-
-Once you've customized and finalized your README, save the file. Your professional, comprehensive README is now ready to accompany your project!
+Just try!
 
 ### Mock-up
 
@@ -63,25 +50,22 @@ Once you've customized and finalized your README, save the file. Your profession
 
 ### Website preview
 
-![demo](../assets/images/demo.png)
+![please add your demo](../assets/images/x)
 
-#### This is the Github page
-
-[Github page at sebecjeanluc](https://sebecjeanluc.github.io/sebecjeanluc/)
 
 ### Third-party services
 - [inquirer - npm](https://www.npmjs.com/package/inquirer)
+- Nothing more
 
 ### Credits
 - Tak Kawamura
 
 ### Test
+- There is no test.
 
 ### License
 Copyright(c) 2024,
 All rights reserved
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 This source code is licensed under the MIT license.
 More detail can be found in the LICENSE file in the root directory of this source tree if the link of the badge is not available.
@@ -93,6 +77,8 @@ More detail can be found in the LICENSE file in the root directory of this sourc
 Tak Kawamura - tkawamura11@gmail.com
 
 [Tak Kawamura on Linkedin](https://linkedin.com/in/tkawamura11@gmail.com)
+
+[sebecjeanluc on Github](https://sebecjeanluc.github.io/sebecjeanluc/)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->

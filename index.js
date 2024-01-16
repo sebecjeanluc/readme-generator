@@ -23,6 +23,12 @@ const questions = [
 		default: "This is definitely one of my best masterpieces' project",
 	},
 	{
+		type: 'input',
+		name: 'installation',
+		message: 'Write a short installtion process',
+		default: '$npm install',
+	},
+	{
 		type: 'checkbox',
 		name: 'buildWith',
 		message: 'What will your project include in the below?',
@@ -33,6 +39,24 @@ const questions = [
 		name: 'developerNote',
 		message: 'Leave an important note for this project',
 		default: 'This README will be used repeatedly by the author.',
+	},
+	{
+		type: 'input',
+		name: 'usage',
+		message: 'Provide a short usage of this product',
+		default: 'Just try!',
+	},
+	{
+		type: 'input',
+		name: 'contribution',
+		message: 'Are there any contribution services? Please add if there is any.',
+		default: 'Nothing else',
+	},
+	{
+		type: 'input',
+		name: 'tests',
+		message: 'Write a short sentence for testing',
+		default: 'N/A',
 	},
 	{
 		type: 'input',
