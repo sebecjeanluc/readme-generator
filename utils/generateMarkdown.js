@@ -63,6 +63,8 @@ function generateMarkdown(data) {
 
 ## ${data.projectTitle}
 
+${licenseBadge}
+
 ### About this ${data.projectTitle} project
 
 ${data.projectDescription}
@@ -74,26 +76,11 @@ ${buildWithItem}
 ### How to install
 
 ~~~shell
-$npm install
+${data.installation}
 ~~~
 
 ### Usage
-This tool will help you create a professional README file for your project in just a few simple steps.
-1. Running the Tool
-
-To start the README generation process, type the command: node index.js in your terminal.
-
-2. Answering Questions
-
-The tool will prompt you with a series of basic questions about your project. Please answer these to the best of your ability. Your responses will form the core content of your README.
-
-3. Finalizing the README
-
-After answering all questions, a basic README template will be generated for you. Please review and manually add any additional sections such as 'Credits', 'Tests', and other necessary information specific to your project.
-
-4. Completion
-
-Once you've customized and finalized your README, save the file. Your professional, comprehensive README is now ready to accompany your project!
+${data.usage}
 
 ### Mock-up
 
@@ -103,25 +90,22 @@ Once you've customized and finalized your README, save the file. Your profession
 
 ### Website preview
 
-![demo](../assets/images/demo.png)
+![please add your demo](../assets/images/x)
 
-#### This is the Github page
-
-[Github page at ${data.githubRepo}](https://sebecjeanluc.github.io/${data.githubRepo}/)
 
 ### Third-party services
 - [inquirer - npm](https://www.npmjs.com/package/inquirer)
+- ${data.contribution}
 
 ### Credits
 - ${data.name}
 
 ### Test
+- ${data.tests}
 
 ### License
 Copyright(c) ${thisYear},
 All rights reserved
-
-${licenseBadge}
 
 This source code is licensed under the ${data.license} license.
 More detail can be found in the LICENSE file in the root directory of this source tree if the link of the badge is not available.
@@ -133,6 +117,8 @@ More detail can be found in the LICENSE file in the root directory of this sourc
 ${data.name} - ${data.email}
 
 [${data.name} on Linkedin](https://linkedin.com/in/${data.email})
+
+[${data.githubRepo} on Github](https://sebecjeanluc.github.io/${data.githubRepo}/)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
