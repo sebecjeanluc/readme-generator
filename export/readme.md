@@ -24,14 +24,11 @@
 
 ### About this Readme Generator project
 
-This application generates a markdown readme template.
+This is definitely one of my best masterpieces' project
 
 ### Built With
 
-- ![HTML]
-- ![CSS]
-- ![JAVASCRIPT]
-- ![NODEJS]
+
 
 ### How to install
 
@@ -83,8 +80,10 @@ Once you've customized and finalized your README, save the file. Your profession
 Copyright(c) 2024,
 All rights reserved
 
-This source code is licensed under the MIT license.
-More detail can be found in the LICENSE file in the root directory of this source tree.
+[![License: Apache-2.0](https://img.shields.io/badge/License-Apache_2.0-yellowgreen.svg)](https://opensource.org/licenses/Apache-2.0)
+
+This source code is licensed under the Apache-2.0 license.
+More detail can be found in the LICENSE file in the root directory of this source tree if the link of the badge is not available.
 
 ## Questions
 
@@ -105,4 +104,3 @@ Tak Kawamura - tkawamura11@gmail.com
 [DAYJS]: https://img.shields.io/badge/DAYJS-orange
 [WEBAPI]: https://img.shields.io/badge/WEBAPI-orange
 [NODEJS]: https://img.shields.io/badge/NODEJS-green
-

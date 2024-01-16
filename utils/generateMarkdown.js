@@ -8,6 +8,37 @@ function generateMarkdown(data) {
 
 	// this year
 	let thisYear = new Date().getFullYear('yyyy')
+
+	// Selecting license badge
+	let licenseBadge
+	switch (data.license) {
+		case 'MIT':
+			licenseBadge =
+				'[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)'
+			break
+		case 'Apache-2.0':
+			licenseBadge =
+				'[![License: Apache-2.0](https://img.shields.io/badge/License-Apache_2.0-yellowgreen.svg)](https://opensource.org/licenses/Apache-2.0)'
+			break
+		case 'GPL-3.0':
+			licenseBadge =
+				'[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)'
+			break
+		case 'BSD-2-Clause':
+			licenseBadge =
+				'[![License: BDS 2](https://img.shields.io/badge/License-BSD_2--Clause-orange.svg)](https://opensource.org/licenses/BSD-2-Clause)'
+			break
+		case 'BSD-3-Clause':
+			licenseBadge =
+				'[![License: BDS 3](https://img.shields.io/badge/License-BSD_3--Clause-orange.svg)](https://opensource.org/licenses/BSD-3-Clause)'
+			break
+		case 'Other':
+			licenseBadge = 'License will be added manually'
+			break
+		default:
+			$(data.license)
+	}
+
 	return `
 
 <!-- TABLE OF CONTENTS -->
@@ -90,8 +121,10 @@ Once you've customized and finalized your README, save the file. Your profession
 Copyright(c) ${thisYear},
 All rights reserved
 
+${licenseBadge}
+
 This source code is licensed under the ${data.license} license.
-More detail can be found in the LICENSE file in the root directory of this source tree.
+More detail can be found in the LICENSE file in the root directory of this source tree if the link of the badge is not available.
 
 ## Questions
 
@@ -112,7 +145,6 @@ ${data.name} - ${data.email}
 [DAYJS]: https://img.shields.io/badge/DAYJS-orange
 [WEBAPI]: https://img.shields.io/badge/WEBAPI-orange
 [NODEJS]: https://img.shields.io/badge/NODEJS-green
-
 `
 }
 
