@@ -13,50 +13,50 @@ This project is about developing a command-line application that dynamically gen
 
 ### Roadmap
 
-- [ ] Develop Command-Line Application
+- [x] Develop Command-Line Application
 
-  - [ ] Accept user input.
+  - [x] Accept user input.
 
-- [ ] Implement README Generation with User Input
+- [x] Implement README Generation with User Input
 
   - [ ] Include sections for:
-    - [ ] Project Title
-    - [ ] Description
-    - [ ] Table of Contents
-    - [ ] Installation
-    - [ ] Usage
-    - [ ] License
-    - [ ] Contributing
-    - [ ] Tests
-    - [ ] Questions
+    - [x] Project Title
+    - [x] Description
+    - [x] Table of Contents
+    - [x] Installation
+    - [x] Usage
+    - [x] License
+    - [x] Contributing
+    - [x] Tests
+    - [x] Questions
 
 - [ ] Dynamic Content Integration
 
-  - [ ] Display user-entered project title as README title.
-  - [ ] Insert user-provided content into respective README sections.
+  - [x] Display user-entered project title as README title.
+  - [x] Insert user-provided content into respective README sections.
 
 - [ ] License Section and Badge
 
   - [ ] Add chosen license badge to README.
   - [ ] Include a notice in the License section.
 
-- [ ] GitHub and Email Information
+- [x] GitHub and Email Information
 
-  - [ ] Add GitHub username with a profile link to the Questions section.
-  - [ ] Include email address with contact instructions in the Questions section.
+  - [x] Add GitHub username with a profile link to the Questions section.
+  - [x] Include email address with contact instructions in the Questions section.
 
-- [ ] Functional Table of Contents
+- [x] Functional Table of Contents
 
-  - [ ] Ensure links navigate to corresponding sections in README.
+  - [x] Ensure links navigate to corresponding sections in README.
 
-- [ ] Prepare Getting Started Guidelines
+- [x] Prepare Getting Started Guidelines
 
-  - [ ] Create a .gitignore file.
-  - [ ] Ensure the repository includes a package.json file.
+  - [x] Create a .gitignore file.
+  - [x] Ensure the repository includes a package.json file.
 
 - [ ] Fulfill Project Submission Requirements
   - [ ] Deliverables:
-    - [ ] Submit a sample README.
+    - [x] Submit a sample README.
     - [ ] Provide the GitHub repository with application code.
   - [ ] Walkthrough Video:
     - [ ] Create and submit a demonstration video.

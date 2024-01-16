@@ -1,21 +1,11 @@
-// function to generate markdown for README
-function generateMarkdown(data) {
-	// Passing array from choices of budges
-	let buildWithItem = ''
-	if (data.buildWith && data.buildWith.length > 0) {
-		buildWithItem = data.buildWith.map((item) => `- ![${item}]`).join('\n')
-	}
 
-	// this year
-	let thisYear = new Date().getFullYear('yyyy')
-	return `
 
 <!-- TABLE OF CONTENTS -->
   <details>
     <summary>Table of Contents</summary>
     <ol>
       <li>
-        <a href="#about-this-project">${data.projectTitle}</a>
+        <a href="#about-this-project">Readme Generator</a>
         <ul>
           <li><a href="#built-with">Built With</a></li>
         </ul>
@@ -30,15 +20,18 @@ function generateMarkdown(data) {
     </ol>
   </details>
 
-## ${data.projectTitle}
+## Readme Generator
 
-### About this ${data.projectTitle} project
+### About this Readme Generator project
 
-${data.projectDescription}
+This application generates a markdown readme template.
 
 ### Built With
 
-${buildWithItem}
+- ![HTML]
+- ![CSS]
+- ![JAVASCRIPT]
+- ![NODEJS]
 
 ### How to install
 
@@ -68,7 +61,7 @@ Once you've customized and finalized your README, save the file. Your profession
 
 ### Important note
 
-- ${data.developerNote}
+- This README will be used repeatedly by the author.
 
 ### Website preview
 
@@ -76,30 +69,30 @@ Once you've customized and finalized your README, save the file. Your profession
 
 #### This is the Github page
 
-[Github page at ${data.githubRepo}](https://sebecjeanluc.github.io/${data.githubRepo}/)
+[Github page at sebecjeanluc](https://sebecjeanluc.github.io/sebecjeanluc/)
 
 ### Third-party services
 - [inquirer - npm](https://www.npmjs.com/package/inquirer)
 
 ### Credits
-- ${data.name}
+- Tak Kawamura
 
 ### Test
 
 ### License
-Copyright(c) ${thisYear},
+Copyright(c) 2024,
 All rights reserved
 
-This source code is licensed under the ${data.license} license.
+This source code is licensed under the MIT license.
 More detail can be found in the LICENSE file in the root directory of this source tree.
 
 ## Questions
 
 ### Contact
 
-${data.name} - ${data.email}
+Tak Kawamura - tkawamura11@gmail.com
 
-[${data.name} on Linkedin](https://linkedin.com/in/${data.email})
+[Tak Kawamura on Linkedin](https://linkedin.com/in/tkawamura11@gmail.com)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
@@ -113,7 +106,3 @@ ${data.name} - ${data.email}
 [WEBAPI]: https://img.shields.io/badge/WEBAPI-orange
 [NODEJS]: https://img.shields.io/badge/NODEJS-green
 
-`
-}
-
-module.exports = generateMarkdown
