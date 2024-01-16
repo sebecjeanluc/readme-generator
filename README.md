@@ -6,10 +6,8 @@ This project is about developing a command-line application that dynamically gen
 
 ### Built With
 
-- ![HTML]
-- ![CSS]
 - ![JAVASCRIPT]
-- ![WEBAPI]
+- ![NODEJS]
 
 ### Roadmap
 
@@ -19,7 +17,7 @@ This project is about developing a command-line application that dynamically gen
 
 - [x] Implement README Generation with User Input
 
-  - [ ] Include sections for:
+  - [x] Include sections for:
     - [x] Project Title
     - [x] Description
     - [x] Table of Contents
@@ -30,15 +28,15 @@ This project is about developing a command-line application that dynamically gen
     - [x] Tests
     - [x] Questions
 
-- [ ] Dynamic Content Integration
+- [x] Dynamic Content Integration
 
   - [x] Display user-entered project title as README title.
   - [x] Insert user-provided content into respective README sections.
 
-- [ ] License Section and Badge
+- [x] License Section and Badge
 
-  - [ ] Add chosen license badge to README.
-  - [ ] Include a notice in the License section.
+  - [x] Add chosen license badge to README.
+  - [x] Include a notice in the License section.
 
 - [x] GitHub and Email Information
 
@@ -54,23 +52,23 @@ This project is about developing a command-line application that dynamically gen
   - [x] Create a .gitignore file.
   - [x] Ensure the repository includes a package.json file.
 
-- [ ] Fulfill Project Submission Requirements
-  - [ ] Deliverables:
+- [x] Fulfill Project Submission Requirements
+  - [x] Deliverables:
     - [x] Submit a sample README.
-    - [ ] Provide the GitHub repository with application code.
-  - [ ] Walkthrough Video:
-    - [ ] Create and submit a demonstration video.
-    - [ ] Include a link to the video in your README file.
-
-### Mock-up
-
-![name](./assets/images/guide/pic.png)
+    - [x] Provide the GitHub repository with application code.
+  - [x] Walkthrough Video:
+    - [x] Create and submit a demonstration video.
+    - [x] Include a link to the video in your README file.
 
 ### Important note
 
-### Preview
+N/A
 
-![Preview](./assets/images/demo.png) it will be added later
+### Preview / Demo video
+
+![Preview](./assets/images/demo.png)
+[Demo on youtube](https://www.youtube.com/watch?v=PueJbUTm77Y)
+Also the video is available [here](https://drive.google.com/drive/u/0/folders/186fex8fNqKzf1FexZepadjOEu9Sk73qW)
 
 #### This is the Github page
 
@@ -82,7 +80,7 @@ This is a practice for the bootcamp. The starter file is protected by the bootca
 
 ### Third-party service
 
-[inquirery](https://)
+- [inquirer - npm](https://www.npmjs.com/package/inquirer)
 
 ### License
 
