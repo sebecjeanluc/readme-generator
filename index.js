@@ -26,7 +26,7 @@ const questions = [
 		type: 'checkbox',
 		name: 'buildWith',
 		message: 'What will your project include in the below?',
-		choices: ['HTML', 'CSS', 'JAVASCRIPT', 'jQuery', 'Node.js', 'WEBAPI'],
+		choices: ['HTML', 'CSS', 'JAVASCRIPT', 'JQUERY', 'NODEJS', 'WEBAPI'],
 	},
 	{
 		type: 'input',
@@ -78,7 +78,7 @@ function writeToFile(fileName, data) {
 function generateQuestions() {
 	const questionList = []
 	questions.forEach((question) => {
-		console.log(question)
+		// console.log(question)
 		questionList.push(question)
 	})
 	return questionList
@@ -114,8 +114,8 @@ init()
 // [x] Make the node to export a simple file
 // [x] Write questions in the array with all property
 // [x] Use inquirer for pmopt using the questions array
-// Save the answers of User's input
-// Write an error code
-// Write down the markdown format
-// Insert the answer to Markdown
-// Write the Init code
+// [x]Save the answers of User's input
+// [x]Write an error code
+// [x]Write down the markdown format
+// [x]Insert the answer to Markdown
+// [x]Write the Init code

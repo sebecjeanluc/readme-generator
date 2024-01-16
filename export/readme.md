@@ -10,6 +10,8 @@
           <li><a href="#built-with">Built With</a></li>
         </ul>
       </li>
+      <li><a href="#how-to-install">How to install</a></li>
+      <li><a href="#usage">Usage</a></li>
       <li><a href="#important-note">Important Note</a></li>
       <li><a href="#website-preview">Website Preview</a></li>
       <li><a href="#credits">Credits</a></li>
@@ -22,13 +24,14 @@
 
 ### About this Readme Generator project
 
-This is definitely one of my best masterpieces' project
+This application generates a markdown readme template.
 
 ### Built With
 
 - ![HTML]
 - ![CSS]
 - ![JAVASCRIPT]
+- ![NODEJS]
 
 ### How to install
 
@@ -36,31 +39,52 @@ This is definitely one of my best masterpieces' project
 $npm install
 ~~~
 
+### Usage
+This tool will help you create a professional README file for your project in just a few simple steps.
+- Running the Tool
+
+To start the README generation process, type the command: node index.js in your terminal.
+
+- Answering Questions
+
+The tool will prompt you with a series of basic questions about your project. Please answer these to the best of your ability. Your responses will form the core content of your README.
+
+- Finalizing the README
+
+After answering all questions, a basic README template will be generated for you. Please review and manually add any additional sections such as 'Credits', 'Tests', and other necessary information specific to your project.
+
+- Completion
+
+Once you've customized and finalized your README, save the file. Your professional, comprehensive README is now ready to accompany your project!
+
 ### Mock-up
 
 ### Important note
 
+- This README will be used repeatedly by the author.
+
 ### Website preview
 
-![Preview](./assets/images/demo.png) it will be added later
+![demo](../assets/images/demo.png)
 
 #### This is the Github page
 
 [Github page at sebecjeanluc](https://sebecjeanluc.github.io/sebecjeanluc/)
 
-### Credits
-
 ### Third-party services
 - [inquirer - npm](https://www.npmjs.com/package/inquirer)
 
-### Contribution
+### Credits
 - Tak Kawamura
 
 ### Test
 
 ### License
+Copyright(c) 2024,
+All rights reserved
 
-Distributed under MIT License
+This source code is licensed under the MIT license.
+More detail can be found in the LICENSE file in the root directory of this source tree.
 
 ## Questions
 
@@ -80,4 +104,5 @@ Tak Kawamura - tkawamura11@gmail.com
 [JQUERY]: https://img.shields.io/badge/JQUERY-lightblue
 [DAYJS]: https://img.shields.io/badge/DAYJS-orange
 [WEBAPI]: https://img.shields.io/badge/WEBAPI-orange
+[NODEJS]: https://img.shields.io/badge/NODEJS-green
 

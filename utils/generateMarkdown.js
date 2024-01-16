@@ -47,6 +47,22 @@ $npm install
 ~~~
 
 ### Usage
+This tool will help you create a professional README file for your project in just a few simple steps.
+- Running the Tool
+
+To start the README generation process, type the command: node index.js in your terminal.
+
+- Answering Questions
+
+The tool will prompt you with a series of basic questions about your project. Please answer these to the best of your ability. Your responses will form the core content of your README.
+
+- Finalizing the README
+
+After answering all questions, a basic README template will be generated for you. Please review and manually add any additional sections such as 'Credits', 'Tests', and other necessary information specific to your project.
+
+- Completion
+
+Once you've customized and finalized your README, save the file. Your professional, comprehensive README is now ready to accompany your project!
 
 ### Mock-up
 
@@ -56,18 +72,16 @@ $npm install
 
 ### Website preview
 
-![demo](./assets/images/demo.png)
+![demo](../assets/images/demo.png)
 
 #### This is the Github page
 
 [Github page at ${data.githubRepo}](https://sebecjeanluc.github.io/${data.githubRepo}/)
 
-### Credits
-
 ### Third-party services
 - [inquirer - npm](https://www.npmjs.com/package/inquirer)
 
-### Contribution
+### Credits
 - ${data.name}
 
 ### Test
@@ -97,6 +111,7 @@ ${data.name} - ${data.email}
 [JQUERY]: https://img.shields.io/badge/JQUERY-lightblue
 [DAYJS]: https://img.shields.io/badge/DAYJS-orange
 [WEBAPI]: https://img.shields.io/badge/WEBAPI-orange
+[NODEJS]: https://img.shields.io/badge/NODEJS-green
 
 `
 }
