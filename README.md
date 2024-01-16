@@ -69,7 +69,7 @@ N/A
 ![Preview](./assets/images/demo.png)
 Also the downloadable video is available on [Google Drive](https://drive.google.com/drive/u/0/folders/186fex8fNqKzf1FexZepadjOEu9Sk73qW)
 Or you can watch on youtube below.
-<a href="https://www.youtube.com/watch?v=PueJbUTm77Y" target="__blank"><img src="./assets/images/youtube.png" alt="demo on youtube" style="width:350px;"/></a>
+<a href="https://www.youtube.com/watch?v=jxT0OZ5ybXU" target="__blank"><img src="./assets/images/youtube.png" alt="demo on youtube" style="width:350px;"/></a>
 
 #### This is the Github page
 
