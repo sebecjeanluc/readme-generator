@@ -92,6 +92,8 @@ ${data.usage}
 
 ![please add your demo](../assets/images/x)
 
+[${data.githubRepo} on Github](https://${data.github}.github.io/${data.githubRepo}/)
+
 
 ### Third-party services
 - [inquirer - npm](https://www.npmjs.com/package/inquirer)
@@ -118,7 +120,7 @@ ${data.name} - ${data.email}
 
 [${data.name} on Linkedin](https://linkedin.com/in/${data.email})
 
-[${data.githubRepo} on Github](https://sebecjeanluc.github.io/${data.githubRepo}/)
+[${data.github} on Github](https://github.com/${data.github}/)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->

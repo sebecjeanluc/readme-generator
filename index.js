@@ -13,7 +13,13 @@ const questions = [
 	{
 		type: 'input',
 		name: 'githubRepo',
-		message: "What is this project's github repository name?",
+		message: "What is this your project's github repository name?",
+		default: 'your Github project name',
+	},
+	{
+		type: 'input',
+		name: 'githubId',
+		message: 'What is your github ID?',
 		default: 'sebecjeanluc',
 	},
 	{
@@ -115,6 +121,7 @@ function init() {
 		.then((answers) => {
 			const nameAnswer = answers.name
 			const githubAnswer = answers.githubRepo
+			const githubId = answers.githubId
 			const projectTitleAnswer = answers.projectTitle
 			const buildWithAnswer = answers.buildWith
 			const emailAnswer = answers.email

@@ -5,7 +5,7 @@
     <summary>Table of Contents</summary>
     <ol>
       <li>
-        <a href="#about-this-project">Readme Generator</a>
+        <a href="#about-this-project">Team Profile Generator</a>
         <ul>
           <li><a href="#built-with">Built With</a></li>
         </ul>
@@ -20,13 +20,13 @@
     </ol>
   </details>
 
-## Readme Generator
+## Team Profile Generator
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-### About this Readme Generator project
+### About this Team Profile Generator project
 
-This is definitely one of my best masterpieces' project
+This is node.js command-line application that helps a user to create team's profile easily.
 
 ### Built With
 
@@ -36,11 +36,11 @@ This is definitely one of my best masterpieces' project
 ### How to install
 
 ~~~shell
-$npm install
+npm init, npm i -y, then run the code. node index.js
 ~~~
 
 ### Usage
-Just try!
+Run the code and answer questions!
 
 ### Mock-up
 
@@ -55,13 +55,13 @@ Just try!
 
 ### Third-party services
 - [inquirer - npm](https://www.npmjs.com/package/inquirer)
-- Nothing more
+- Nothing else
 
 ### Credits
 - Tak Kawamura
 
 ### Test
-- There is no test.
+- I will add them later about it.
 
 ### License
 Copyright(c) 2024,
@@ -78,7 +78,7 @@ Tak Kawamura - tkawamura11@gmail.com
 
 [Tak Kawamura on Linkedin](https://linkedin.com/in/tkawamura11@gmail.com)
 
-[sebecjeanluc on Github](https://sebecjeanluc.github.io/sebecjeanluc/)
+[team-profile-generator on Github](https://sebecjeanluc.github.io/team-profile-generator/)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
