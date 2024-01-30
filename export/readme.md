@@ -1,11 +1,9 @@
-
-
 <!-- TABLE OF CONTENTS -->
   <details>
     <summary>Table of Contents</summary>
     <ol>
       <li>
-        <a href="#about-this-project">Team Profile Generator</a>
+        <a href="#about-this-project">react-portfolio</a>
         <ul>
           <li><a href="#built-with">Built With</a></li>
         </ul>
@@ -20,50 +18,60 @@
     </ol>
   </details>
 
-## Team Profile Generator
+## react-portfolio
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-### About this Team Profile Generator project
+### About this react-portfolio project
 
-This is node.js command-line application that helps a user to create team's profile easily.
+This is definitely one of my best masterpieces' project
 
 ### Built With
 
+- ![HTML]
+- ![CSS]
 - ![JAVASCRIPT]
 - ![NODEJS]
+- ![WEBAPI]
+- ![REACT]
 
 ### How to install
 
-~~~shell
-npm init, npm i -y, then run the code. node index.js
-~~~
+```shell
+The project focuses on a technically sophisticated implementation of a portfolio website using React. It leverages React's component-based architecture for modular and reusable UI elements, and employs dynamic content rendering, especially in the Project Gallery where data is sourced from a JSON file. Client-side routing is managed via React Router, enabling seamless navigation without page reloads, enhancing user experience and performance. Technical emphasis is also on state management within React to handle real-time updates and user interactions effectively. The project structure demands meticulous attention to detail in integrating various components like Header, Home, and Contact, ensuring they work cohesively within the React ecosystem. This approach not only showcases technical proficiency but also ensures a scalable, maintainable, and user-friendly portfolio website.
+```
 
 ### Usage
-Run the code and answer questions!
+
+N/A
 
 ### Mock-up
 
 ### Important note
 
-- This README will be used repeatedly by the author.
+- The key technical aspect of this project lies in effectively managing and rendering dynamic content using React and React Router.
 
 ### Website preview
 
 ![please add your demo](../assets/images/x)
 
+[react-portfolio on Github](https://undefined.github.io/react-portfolio/)
 
 ### Third-party services
+
 - [inquirer - npm](https://www.npmjs.com/package/inquirer)
-- Nothing else
+- React React Router -React and React-DOM - Styled-Components - Vite
 
 ### Credits
+
 - Tak Kawamura
 
 ### Test
-- I will add them later about it.
+
+- N/A
 
 ### License
+
 Copyright(c) 2024,
 All rights reserved
 
@@ -78,7 +86,7 @@ Tak Kawamura - tkawamura11@gmail.com
 
 [Tak Kawamura on Linkedin](https://linkedin.com/in/tkawamura11@gmail.com)
 
-[team-profile-generator on Github](https://sebecjeanluc.github.io/team-profile-generator/)
+[undefined on Github](https://github.com/undefined/)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
@@ -91,3 +99,4 @@ Tak Kawamura - tkawamura11@gmail.com
 [DAYJS]: https://img.shields.io/badge/DAYJS-orange
 [WEBAPI]: https://img.shields.io/badge/WEBAPI-orange
 [NODEJS]: https://img.shields.io/badge/NODEJS-green
+[REACT]: https://img.shields.io/badge/REACT-lightblue
