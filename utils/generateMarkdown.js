@@ -133,6 +133,7 @@ ${data.name} - ${data.email}
 [DAYJS]: https://img.shields.io/badge/DAYJS-orange
 [WEBAPI]: https://img.shields.io/badge/WEBAPI-orange
 [NODEJS]: https://img.shields.io/badge/NODEJS-green
+[REACT]: https://img.shields.io/badge/NODEJS-lightblue
 `
 }
 

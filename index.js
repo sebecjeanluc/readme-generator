@@ -38,7 +38,15 @@ const questions = [
 		type: 'checkbox',
 		name: 'buildWith',
 		message: 'What will your project include in the below?',
-		choices: ['HTML', 'CSS', 'JAVASCRIPT', 'JQUERY', 'NODEJS', 'WEBAPI'],
+		choices: [
+			'HTML',
+			'CSS',
+			'JAVASCRIPT',
+			'JQUERY',
+			'NODEJS',
+			'WEBAPI',
+			'REACT',
+		],
 	},
 	{
 		type: 'input',
